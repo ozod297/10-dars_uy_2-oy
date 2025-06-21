@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #000;
+  color: #fff;
+  background-image: url('./ppp.png');
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.language {
+  padding: 5px;
+  background: #222;
+  color: #fff;
+  border: none;
+}
+
+.play-btn {
+  background: #facc15;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+  text-align: center;
+}
+
+.platform-buttons {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.pc {
+  background-color: #facc15;
+  color: #000;
+}
+
+.console {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.hero-title {
+  font-size: 36px;
+  background: rgba(255, 204, 0, 0.8);
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
